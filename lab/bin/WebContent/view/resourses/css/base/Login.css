@@ -1,0 +1,136 @@
+body{	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.top_title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #e3e4e5;
+    color: dimgray;
+}
+.top_title_one{
+	width: 980px;
+	height: 30px;
+    margin: 0 auto;
+    zoom: 1;
+}
+.top_title_one .userinfo{
+     float: left;
+    margin-left: 5px;
+}
+.top_main{
+	width: 100%;
+    height: 80px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #BBB;
+}
+.main_log{
+	width: 980px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+    zoom: 1;
+}
+.log{
+	float: left;
+    margin-left: -20px;
+    width: 583px;
+}
+.log h1{
+	  margin: 15px 0 0 5px;
+	display: inline-block;
+    vertical-align: top;
+    
+}
+.log h1 img {
+   display: block;
+    width: 573px;
+    height: 52px;
+}
+.login-banner{
+	width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: url(http://home.hicc.cn/Rescource/Images/background.jpg);
+}
+.login_con{
+	width: 298px;
+    height: 328px;
+    border: 1px solid #e6e6e6;
+    float: right;
+    margin: 35px 0 0 0;
+    position: absolute;
+    right: 40px;
+}
+.login-banner .login_form{
+	position: absolute;
+    left: 20px;
+    top: 25px;
+    z-index: 99;
+}
+.login-form-title{
+   display: block;
+    color: #666;
+    padding: 0 0 17px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.login-form-warp p{
+	margin-bottom: 15px; 
+    display: block;
+    height: 38px; 
+}
+.bg_bar{
+	background: #FFF;
+    filter: alpha(opacity=85);
+    opacity: .85;
+    width: 100%;
+    height: 100%;
+}
+.button-box{
+    display: block;
+    overflow: hidden;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    background: url(http://home.hicc.cn/Rescource/Images/submit_btn.png) no-repeat;
+    border: 0;
+    text-indent: -999px;
+}
+input{
+	height: 20px;
+    width: 240px;
+    padding: 8px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: normal transition: all 0.2s ease 0s;
+    border: 1px solid #B7B7B7;
+    color: rgb(163, 163, 163);
+    background: transparent;
+}
+a{
+    color: #257ca1;
+    text-decoration: none;
+}
+.under{
+	 background: no-repeat 50% 20px;
+    margin-top:20px;
+}
+.under_one{
+	height: 76px;
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+    border-top: 1px solid #E1E2E2;
+    padding: 10px 0;
+    position: relative
+}

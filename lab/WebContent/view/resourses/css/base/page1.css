@@ -1,0 +1,94 @@
+/*
+*.box对应当总页数大于等于5时，页码的样式
+*/
+.box {
+   float:left; 
+   width:45px;
+   text-align: center;
+   margin-left:10px;
+   background:#E0FFFF;
+   cursor:pointer;
+    background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 4s linear infinite;
+    font-size: 15px;
+    
+}
+/*
+*.bbox对应点击页码改变的样式
+*/
+.bbox {
+   float:left;
+   width:50px;
+   text-align: center;
+   margin-left:10px;
+   background:#FF8C00;
+   
+}
+
+
+/*
+*.sbox对应总页数小于5时，页码的样式和首页与尾页的样式
+*/
+.sbox {
+   float:left;
+   width:50px;
+   text-align: center;
+    margin-left:10px;
+   background:#E0FFFF;
+}
+/*
+*.xbox对应总行数，总页数的样式
+*/
+.xbox {
+  float:right;
+   width:50px;
+   text-align: center;
+   margin-left:10px;
+     background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 4s linear infinite;
+    font-size: 15px;
+}
+.dbox{
+	margin-left:10px;
+	width:100x;
+	float:left; 
+	 background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    
+    -webkit-animation: masked-animation 4s linear infinite;
+    font-size: 15px;
+	
+}
+.ebox{
+	width:10%;
+	float:left;
+	margin-left:10px; 
+	
+}
+.input_box{
+	background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */   
+    -webkit-animation: masked-animation 4s linear infinite;
+    font-size: 15px;
+	border:0px;
+	width:50px;
+	height:20px; 
+	cursor:pointer;
+	
+}
+@keyframes masked-animation {
+            0% {
+                background-position: 0 0;   /*background-position 属性设置背景图像的起始位置。*/
+            }
+            100% {
+                background-position: -100% 0;
+            }
+        }

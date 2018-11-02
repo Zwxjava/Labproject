@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/学习/java学习/项目备份以及平时所有的/lib/commons-fileupload-1.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/学习/java学习/项目备份以及平时所有的/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/学习/java学习/项目备份以及平时所有的/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/学习/java学习/项目备份以及平时所有的/lib/mysql-connector-java-5.1.0-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/学习/java学习/项目备份以及平时所有的/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/学习/java学习/项目备份以及平时所有的/lib/standard.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
